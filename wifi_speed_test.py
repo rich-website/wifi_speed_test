@@ -1,10 +1,10 @@
-import speedtest # this comes from the speedtest-cli package, based off the website https://www.speedtest.net/
+import speedtest
 import sys
 import csv
-import calendar # convert day number e.g. 31st to a day name e.g. Thursday
-from datetime import datetime # convert timestamp to datetime object to get year, month day etc.
+import calendar
+from datetime import datetime
 from zoneinfo import ZoneInfo
-from pathlib import Path # creates a path object so I can create a folder if it doesn't already exist
+from pathlib import Path
 
 print("Internet speed test has started...")
 
